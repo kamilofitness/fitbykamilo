@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 1rem;
+}
+
+.intro, .kundenmeinung, .kontakt, .kalender {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+}
+
+.button {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.instagram {
+  background-color: #E1306C;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
